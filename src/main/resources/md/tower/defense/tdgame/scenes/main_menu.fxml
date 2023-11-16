@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane stylesheets="@../css/menu.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="719.0" prefWidth="1280.0" style="-fx-background-radius: 20;" xmlns="http://javafx.com/javafx/19"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="md.tower.defense.tdgame.Controllers.MainMenu">
+    <children>
+        <ImageView fitHeight="740.0" fitWidth="1286.0" layoutX="-5.0" layoutY="-4.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../assets/misc/mm_bg.jpg"/>
+            </image>
+        </ImageView>
+        <VBox alignment="TOP_CENTER" prefHeight="720.0" prefWidth="1280.0">
+            <children>
+                <Label id="mainTitle" fx:id="title" alignment="CENTER" contentDisplay="CENTER" text="Tower Defense"
+                       textFill="WHITE">
+                    <font>
+                        <Font name="hooge 05_53" size="100.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets top="75.0"/>
+                    </VBox.margin>
+                </Label>
+                <Button styleClass="menuButton" fx:id="start_game" minWidth="300.0" mnemonicParsing="false"
+                        onAction="#startGame" onMouseEntered="#HoverEnter" onMouseExited="#HoverExit" prefWidth="300.0"
+                        text="START GAME" textFill="WHITE">
+                    <font>
+                        <Font size="30.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets top="100.0"/>
+                    </VBox.margin>
+                </Button>
+                <Button styleClass="menuButton" fx:id="quit" layoutX="556.0" layoutY="156.0" minWidth="300.0"
+                        mnemonicParsing="false" onAction="#exitApp" onMouseEntered="#HoverEnter"
+                        onMouseExited="#HoverExit" prefWidth="300.0" text="QUIT">
+                    <font>
+                        <Font size="30.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets top="20.0"/>
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+    </children>
+</Pane>

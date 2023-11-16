@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+label{
+    -fx-font-family: 'hooge 05_53', sans-serif;
+}
+
+.menuButton{
+    -fx-font-family: 'Chakra Petch', sans-serif;
+    -fx-font-size: 30;
+    -fx-border-radius: 10;
+    -fx-background-color:
+    rgba(100,0,100,0.5);
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+}
