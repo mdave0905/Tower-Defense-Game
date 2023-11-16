@@ -3,3 +3,7 @@ Defend your base from hordes of enemies in this thrilling tower defense game. Co
 Have Fun!
 
 All assets are used under the Creative Commons 0 License
+
+Audio: Freesound
+Background Image: Unsplash
+Tileset: OpenGameArt
