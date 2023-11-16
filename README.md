@@ -5,5 +5,8 @@ Have Fun!
 All assets are used under the Creative Commons 0 License
 
 Audio: Freesound
+
 Background Image: Unsplash
+
 Tileset: OpenGameArt
+
