@@ -9,4 +9,3 @@ Audio: Freesound
 Background Image: Unsplash
 
 Tileset: OpenGameArt
-
